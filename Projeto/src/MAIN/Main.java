@@ -32,7 +32,7 @@ public static void main(String args[]) {
 			int tamanho = 0;
 			do {
 				System.out.println("Informe qual passo de ordenação você deseja executar: ");
-				System.out.println("\n1 Passo 1-\n2 - Passo 2\n3 - Passo 3\n4 - Sair");
+				System.out.println("\n1 - Passo 1-\n2 - Passo 2\n3 - Passo 3\n4 - Sair");
 				opc = leitor.nextInt();
 				System.out.println("Informe o a parcela/quantidade de linhas que será ordenada (obs: máximo é 1250836): ");
 				tamanho = leitor.nextInt();
